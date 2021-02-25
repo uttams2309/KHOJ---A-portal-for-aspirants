@@ -5,7 +5,8 @@ import './App.css';
 import Landing from './components/landing.js'
 import login from './components/login'
 import register from './components/register'
-import Dashboard from './components/dashboard.js'
+import Dashboard from './components/customer/cus_dashboard.js'
+
 
 function App() {
   return (
