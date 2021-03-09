@@ -11,12 +11,13 @@
 }
 .OverviewBarTile p,h1{
     margin: 10px;
+    margin-bottom: 3px;
     text-align: center;
     color: #9FA2B4;
 }
 .OverviewBarTile h1{
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 0px;
     color: #252733;
 }
 .OverviewBarTile:hover > h1  {

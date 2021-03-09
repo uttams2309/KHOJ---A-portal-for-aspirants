@@ -12,7 +12,7 @@ export default class Sidebar extends Component {
                 <SidebarHead />
                 <Link to="/dashboard/overview"><SidebarTile menu="Overview" name='pie-chart-alt-2'/></Link>
                 <Link to="/dashboard/profile"><SidebarTile menu="My Profile" name='user'/></Link>
-                <Link to="/dashboard/search"><SidebarTile menu="Search" name='search-alt'/></Link>
+                
                 <Link to="/dashboard/account"><SidebarTile menu="Account" name='user-account'/></Link>
                 <h5 style={line}> </h5>
                 <Link to="/dashboard/setting"><SidebarTile menu="Settings" name='pencil'/></Link>

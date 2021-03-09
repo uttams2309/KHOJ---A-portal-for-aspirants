@@ -60,6 +60,15 @@
     border-radius: 4px;
     
 }
+.SidebarTile:focus  {
+    background: #7072809a;
+    opacity: 1;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.863);
+    border-left: solid 6px white;
+    border-radius: 4px;
+    
+}
 
 .SidebarTile:hover > #icon{
     color: white;
