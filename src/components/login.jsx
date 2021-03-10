@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Redirect, BrowserRouter } from 'react-router-dom';
 import { BrowserRouter as Router, useHistory } from 'react-router-dom';
 import register from './register';
-
+import Dashboard from './dashboard';
 class login extends Component {
   state = {
     account: { username: '', password: '' },
@@ -15,9 +15,10 @@ class login extends Component {
    
   };
   loginHandler = () => {
-    if (this.state.account.username && this.state.account.password)
-      
-    console.log('login');
+   // if (this.state.account.username && this.state.account.password)
+      const history = useHistory;
+      this.props.history.push("/dashboard")
+    //console.log('login');
   }
   validate = () => { 
     const errors = {};
